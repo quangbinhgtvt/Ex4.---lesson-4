@@ -14,6 +14,8 @@
 		67086D45216BBB77003A4E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67086D43216BBB77003A4E78 /* LaunchScreen.storyboard */; };
 		67086D50216BBB77003A4E78 /* Ex4____lesson_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67086D4F216BBB77003A4E78 /* Ex4____lesson_4Tests.swift */; };
 		67086D5B216BBB77003A4E78 /* Ex4____lesson_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67086D5A216BBB77003A4E78 /* Ex4____lesson_4UITests.swift */; };
+		67086D6D216BDD53003A4E78 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67086D6C216BDD53003A4E78 /* MainTabbarController.swift */; };
+		67DA483D216CBF9F00DFE74A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DA483C216CBF9F00DFE74A /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 		67086D3A216BBB77003A4E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67086D3C216BBB77003A4E78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		67086D3F216BBB77003A4E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		67086D41216BBB77003A4E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67086D41216BBB77003A4E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Ex4. - lesson 4/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		67086D44216BBB77003A4E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67086D46216BBB77003A4E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67086D4B216BBB77003A4E78 /* Ex4. - lesson 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ex4. - lesson 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,8 @@
 		67086D56216BBB77003A4E78 /* Ex4. - lesson 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ex4. - lesson 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67086D5A216BBB77003A4E78 /* Ex4____lesson_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex4____lesson_4UITests.swift"; sourceTree = "<group>"; };
 		67086D5C216BBB77003A4E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67086D6C216BDD53003A4E78 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		67DA483C216CBF9F00DFE74A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				67086D41216BBB77003A4E78 /* Assets.xcassets */,
 				67086D43216BBB77003A4E78 /* LaunchScreen.storyboard */,
 				67086D46216BBB77003A4E78 /* Info.plist */,
+				67086D6C216BDD53003A4E78 /* MainTabbarController.swift */,
+				67DA483C216CBF9F00DFE74A /* SignUpViewController.swift */,
 			);
 			path = "Ex4. - lesson 4";
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67DA483D216CBF9F00DFE74A /* SignUpViewController.swift in Sources */,
 				67086D3D216BBB77003A4E78 /* ViewController.swift in Sources */,
 				67086D3B216BBB77003A4E78 /* AppDelegate.swift in Sources */,
+				67086D6D216BDD53003A4E78 /* MainTabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
