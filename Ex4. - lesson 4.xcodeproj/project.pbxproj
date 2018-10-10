@@ -15,6 +15,7 @@
 		67086D50216BBB77003A4E78 /* Ex4____lesson_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67086D4F216BBB77003A4E78 /* Ex4____lesson_4Tests.swift */; };
 		67086D5B216BBB77003A4E78 /* Ex4____lesson_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67086D5A216BBB77003A4E78 /* Ex4____lesson_4UITests.swift */; };
 		67086D6D216BDD53003A4E78 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67086D6C216BDD53003A4E78 /* MainTabbarController.swift */; };
+		6728D6E5216DFF3C002AE99F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6728D6E4216DFF3C002AE99F /* MainViewController.swift */; };
 		67DA483D216CBF9F00DFE74A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DA483C216CBF9F00DFE74A /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		67086D5A216BBB77003A4E78 /* Ex4____lesson_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex4____lesson_4UITests.swift"; sourceTree = "<group>"; };
 		67086D5C216BBB77003A4E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67086D6C216BDD53003A4E78 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		6728D6E4216DFF3C002AE99F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		67DA483C216CBF9F00DFE74A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 				67086D46216BBB77003A4E78 /* Info.plist */,
 				67086D6C216BDD53003A4E78 /* MainTabbarController.swift */,
 				67DA483C216CBF9F00DFE74A /* SignUpViewController.swift */,
+				6728D6E4216DFF3C002AE99F /* MainViewController.swift */,
 			);
 			path = "Ex4. - lesson 4";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				67086D3D216BBB77003A4E78 /* ViewController.swift in Sources */,
 				67086D3B216BBB77003A4E78 /* AppDelegate.swift in Sources */,
 				67086D6D216BDD53003A4E78 /* MainTabbarController.swift in Sources */,
+				6728D6E5216DFF3C002AE99F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
